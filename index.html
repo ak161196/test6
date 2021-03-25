@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Решения на Javascript</title>
+    <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+    <link rel="stylesheet" href="css/simple.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="cbk.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section id="first" class="first">
+        <a href="#second" class="btn go_to">
+            Кликни меня
+        </a>
+        <button class="popup">Кликни, чтобы вызвать pop-up</button>
+    </section>
+    <section id="second" class="second">
+        <ul class="gallery">
+            <li class="gallery__item">
+                <a href="img/img1.jpg" data-lightbox="image-1" data-title="Мое описание">
+                    <img src="img/img1.jpg" alt="Gallery item">
+                </a>
+            </li>
+            <li class="gallery__item">
+                <a href="img/img2.jpg" data-lightbox="image-1" data-title="Мое описание">
+                    <img src="img/img2.jpg" alt="Gallery item">
+                    <span>
+                        описание
+                    </span>
+                </a>
+            </li>
+            <li class="gallery__item">
+                <a href="img/img3.jpg" data-lightbox="image-1" data-title="Мое описание">
+                    <img src="img/img3.jpg" alt="Gallery item">
+                </a>
+            </li>
+            <li class="gallery__item">
+                <a href="img/img4.jpg" data-lightbox="image-1" data-title="Мое описание">
+                    <img src="img/img4.jpg" alt="Gallery item">
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section id="third" class="third">
+        <img src="img/img3.jpg" alt="Gallery item" class="move">
+    </section>
+
+    <div style="display: none;">
+        <div class="box-modal" id="exampleModal">
+            <div class="box-modal_close arcticmodal-close">закрыть</div>
+            <h3>Заголовок</h3>
+            <p>Контент</p>
+        </div>
+    </div>
+
+    <a class="callbackkiller cbk-phone cbk-phone-text-none" href="javascript:void(0)" style="display: block; bottom: auto; top: 3699.3px; left: 3%; right: auto;"><div class="cbk-phone-bgr"></div><div class="cbk-phone-content"><div class="cbk-phone-phone cbk-rotate-icon"><i class="ws-icon-phone"></i></div></div><div class="cbk-phone-circle"></div><div class="cbk-phone-second_circle"></div><div class="cbk-phone-third_circle"></div></a>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/jquery.parallax-0.2.js"></script>
+    <script src="js/cbk.js "></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

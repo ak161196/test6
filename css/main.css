@@ -1,0 +1,46 @@
+body {
+    font-family: Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, ul, li, span, a, button {
+    box-sizing: border-box;
+}
+
+.first, .second, .third {
+    height: 600px;
+}
+
+.first {
+    background: #c5e3ff;
+}
+
+.second {
+    background: #c5ffc5;
+}
+
+.third {
+    background: #ffdcc5;
+    position: relative;
+}
+
+.gallery {
+    padding: 0;
+    margin: 0;     
+    display: block;
+    display: flex;
+}
+
+.gallery__item {
+    padding: 0;
+    margin: 0;
+    display: block;
+    margin-right:20px;
+}
+
+.move {
+    position: absolute;
+    right: 500px;
+    top: 100px;
+}
